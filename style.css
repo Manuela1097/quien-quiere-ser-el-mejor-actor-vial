@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: url("images/fondo.png") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.logo {
+  height: 120px;
+}
+
+#gameContainer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  border-radius: 12px;
+}
+
+#progress {
+  position: absolute;
+  top: 150px;
+  right: 20px;
+  width: 180px;
+}
+
+#progressList {
+  list-style: none;
+  padding: 0;
+}
+
+#progressList li {
+  background: rgba(255, 255, 255, 0.1);
+  margin: 3px 0;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+#progressList li.active {
+  background: yellow;
+  color: black;
+}
